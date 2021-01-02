@@ -1,4 +1,37 @@
 # CRUD JavaFx application
-JavaFx and Fxml complete code to make UI and logic of CRUD Javafx application.
+***
+* JavaFx and Fxml code to make UI and logic of CRUD Javafx application.
+* I have made this app by following these two Youtube tutorials
+  1. Part 1 - https://www.youtube.com/watch?v=CGWRwpeihE8 
+  2. Part 2 - https://www.youtube.com/watch?v=kpnnXit2br0
+* I have updated the code to INSERT, UPDATE and DELETE operations by using PrepareStatement interface in java.sql.
+* Follow this website for syntax and understanding - https://www.javatpoint.com/PreparedStatement-interface
+* I have used 
+  1. Intellij IDEA editor
+  2. Java SE 8
+  3. mysql-connector-java-8.0.22
+  4. javafx-sdk-11.0.2
 
-![alt text](https://github.com/designeradi/CRUD_JavaFx_App/blob/master/Screenshot%202021-01-02%20211209.jpg)
+![Screenshot](https://github.com/designeradi/CRUD_JavaFx_App/blob/master/Screenshot%202021-01-02%20211209.jpg)
+
+## Copy code to projectName/src/packageName
+  
+Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to the respective files in your Javafx appplication.
+  
+## Setting up the Mysql database
+---
+1. Run Mysql server on port localhost:3306 (it is default port in XAMPP).
+2. Create database having the name - "library".
+3. Create table "books" with schema - 
+
+   ``` CREATE TABLE books (
+        id INT(6) PRIMARY KEY,
+        title VARCHAR(50) NOT NULL,
+        author VARCHAR(50) NOT NULL,
+        year INT(4) NOT NULL,
+        pages INT(4) NOT NULL
+       );```
+
+Now try running your Main.java file and see if it runs. If not then try debugging or google the errors.
+ 
+  
