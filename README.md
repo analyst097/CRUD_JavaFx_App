@@ -14,7 +14,7 @@
 
 ![Screenshot](https://github.com/designeradi/CRUD_JavaFx_App/blob/master/Screenshot%202021-01-02%20211209.jpg)
 
-## Copy code to projectName/src/packageName
+## Copy and paste the codes
   
 Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to the respective files in your Javafx appplication.
   
