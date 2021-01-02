@@ -30,7 +30,7 @@ Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to th
         author VARCHAR(50) NOT NULL,
         year INT(4) NOT NULL,
         pages INT(4) NOT NULL
-       );```
+       );
 
 Now try running your Main.java file and see if it runs. If not then try debugging or google the errors.
  
