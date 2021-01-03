@@ -35,7 +35,7 @@ Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to th
 ### Final step
 ---
 One final thing you have to is, go to Edit configurations of Main.java and add VM options as -
-  * --module-path <path to javafx lib> --add-modules javafx.controls,javafx.fxml
+  * --module-path "path to javafx lib" --add-modules javafx.controls,javafx.fxml
   * For example :- --module-path C:\Java\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml
 
 Now try running your Main.java file and see if it runs. If not then try debugging or google the errors.
