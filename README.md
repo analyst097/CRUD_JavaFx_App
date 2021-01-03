@@ -8,14 +8,14 @@
 * Follow this website for syntax and understanding - https://www.javatpoint.com/PreparedStatement-interface
 * I have used 
   1. Intellij IDEA editor
-  2. Java SE 8
+  2.  Jdk 11.0.4
   3. mysql-connector-java-8.0.22
   4. javafx-sdk-11.0.2
 
 ![Screenshot](https://github.com/designeradi/CRUD_JavaFx_App/blob/master/Screenshot%202021-01-02%20211209.jpg)
 
-## Copy and paste the codes
-  
+## Copy the codes
+---
 Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to the respective files in your Javafx appplication.
   
 ## Setting up the Mysql database
@@ -31,6 +31,12 @@ Copy the code from  Main.java, Controller.java, Books.java and sample.fxml to th
         year INT(4) NOT NULL,
         pages INT(4) NOT NULL
        );
+
+### Final step
+---
+One final thing you have to is, go to Edit configurations of Main.java and add VM options as -
+  * --module-path <path to javafx lib> --add-modules javafx.controls,javafx.fxml
+  * For example :- --module-path C:\Java\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml
 
 Now try running your Main.java file and see if it runs. If not then try debugging or google the errors.
  
