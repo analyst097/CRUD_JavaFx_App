@@ -48,7 +48,7 @@ public class Controller implements Initializable {
     public Connection getConnection(){
 
         String user = "root";
-        String password = "";
+        String password = "password";
 
         try{
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/library?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", user, password);

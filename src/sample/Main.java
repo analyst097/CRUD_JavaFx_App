@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
         AnchorPane rootNode = loader.load();
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("CRUD Javafx Application");
         primaryStage.setScene(new Scene(rootNode));
         primaryStage.show();
     }
